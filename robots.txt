@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tortassol.github.io/sitemap.xml
