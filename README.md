@@ -51,9 +51,12 @@ git clone https://github.com/WalterABenitez/tortas-sol.git
 ```
 
 ---
+Actualiza README para render correcto
+
 
 ## ✨ Próximas mejoras
 
 - Cambiar links para hosting con dominio propio  
 - Lazy-loading avanzado para imágenes  
 - Integración con formulario real (backend)
+
