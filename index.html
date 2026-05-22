@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ══ SEO Principal ══ -->
+  <title>Tortas Sol | Pastelería Artesanal en Rosario, Santa Fe</title>
+  <meta name="description" content="Tortas Sol — Pastelería artesanal en Rosario, Santa Fe. Tortas personalizadas para cumpleaños, casamientos, baby showers y eventos. Pedidos por WhatsApp. ¡Hacemos tu torta soñada!" />
+  <meta name="keywords" content="tortas personalizadas Rosario, pastelería artesanal Rosario, tortas cumpleaños Rosario Santa Fe, tortas casamiento Rosario, mesa dulce Rosario, repostería artesanal, Marisol tortas" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Tortas Sol — Marisol, Rosario" />
+  <meta name="geo.region" content="AR-S" />
+  <meta name="geo.placename" content="Rosario, Santa Fe, Argentina" />
+  <link rel="canonical" href="https://walterabenitez.github.io/tortas-sol/" />
+
+  <!-- ══ Open Graph ══ -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://walterabenitez.github.io/tortas-sol/" />
+  <meta property="og:title" content="Tortas Sol | Pastelería Artesanal en Rosario" />
+  <meta property="og:description" content="Tortas personalizadas hechas con amor en Rosario. Cumpleaños, casamientos y eventos especiales. Pedí la tuya por WhatsApp." />
+  <meta property="og:image" content="https://walterabenitez.github.io/tortas-sol/assets/images/hero.webp" />
+  <meta property="og:locale" content="es_AR" />
+  <meta property="og:site_name" content="Tortas Sol" />
+
+  <!-- ══ Twitter Card ══ -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Tortas Sol | Pastelería Artesanal Rosario" />
+  <meta name="twitter:description" content="Tortas personalizadas hechas con amor en Rosario, Santa Fe." />
+  <meta name="twitter:image" content="https://walterabenitez.github.io/tortas-sol/assets/images/hero.webp" />
+
+  <!-- ══ Schema.org LocalBusiness ══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Bakery",
+    "name": "Tortas Sol",
+    "description": "Pastelería artesanal en Rosario, Santa Fe. Tortas personalizadas para cumpleaños, casamientos, baby showers y eventos especiales.",
+    "image": "https://walterabenitez.github.io/tortas-sol/assets/images/hero.webp",
+    "url": "https://walterabenitez.github.io/tortas-sol/",
+    "telephone": "+5493413559372",
+    "priceRange": "$$",
+    "currenciesAccepted": "ARS",
+    "paymentAccepted": "Efectivo, Transferencia bancaria",
+    "servesCuisine": ["Tortas personalizadas", "Repostería artesanal", "Mesa dulce"],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rosario",
+      "addressRegion": "Santa Fe",
+      "addressCountry": "AR",
+      "postalCode": "2000"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -32.9442,
+      "longitude": -60.6505
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "09:00",
+      "closes": "20:00"
+    },
+    "sameAs": [
+      "https://www.instagram.com/tortassol69",
+      "https://www.facebook.com/share/1Fr5a6Psse/"
+    ],
+    "hasMap": "https://maps.google.com/?q=Rosario,Santa+Fe,Argentina"
+  }
+  </script>
+
+  <!-- ══ Favicons ══ -->
+  <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+  <link rel="manifest" href="assets/icons/site.webmanifest" />
+  <meta name="theme-color" content="#fff8f0" />
+
+  <!-- ══ Google Fonts ══ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- ══ Font Awesome ══ -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plh7eecU4D7SM4gFJN/xYeGW0ifVA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ══════ LOADER ══════ -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader-arc"></div>
+    <p class="loader-label">Tortas <em>Sol</em></p>
+  </div>
+
+  <!-- ══════ NAVBAR ══════ -->
+  <header class="nav" id="nav" role="banner">
+    <div class="nav-container">
+
+      <a href="#inicio" class="nav-brand" aria-label="Tortas Sol — Ir al inicio">
+        <div class="nav-brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" width="38" height="38">
+            <ellipse cx="22" cy="36" rx="16" ry="3.5" fill="currentColor" opacity=".18"/>
+            <rect x="7" y="22" width="30" height="12" rx="3" fill="currentColor" opacity=".85"/>
+            <ellipse cx="22" cy="22" rx="15" ry="4" fill="currentColor"/>
+            <rect x="7" y="26" width="30" height="2" fill="white" opacity=".25"/>
+            <rect x="21" y="12" width="2.5" height="9" rx="1.2" fill="currentColor" opacity=".7"/>
+            <ellipse cx="22.25" cy="11" rx="2" ry="2.8" fill="#f5a623" opacity=".95"/>
+            <ellipse cx="22.25" cy="12" rx="1" ry="1.5" fill="#fff" opacity=".5"/>
+          </svg>
+        </div>
+        <span class="nav-brand-text">Tortas <em>Sol</em></span>
+      </a>
+
+      <nav class="nav-links" id="nav-links" aria-label="Navegación principal">
+        <a href="#inicio"      class="nl">Inicio</a>
+        <a href="#sobre"       class="nl">Sobre mí</a>
+        <a href="#servicios"   class="nl">Servicios</a>
+        <a href="#galeria"     class="nl">Galería</a>
+        <a href="#testimonios" class="nl">Reseñas</a>
+        <a href="#contacto"    class="nl">Contacto</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://wa.me/5493413559372" target="_blank" rel="noopener noreferrer" class="nav-wa" aria-label="Hacer pedido por WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>Pedir ahora</span>
+        </a>
+        <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ══════ HERO ══════ -->
+    <section id="inicio" class="hero" aria-label="Portada principal">
+      <div class="hero-mosaic" aria-hidden="true">
+        <div class="hm-cell hm-main">
+          <video muted autoplay loop playsinline preload="metadata"
+                 poster="assets/images/hero.webp">
+            <source src="assets/videos/Tortazoeconmarisol.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="hm-col">
+          <div class="hm-cell">
+            <video muted autoplay loop playsinline preload="metadata">
+              <source src="assets/videos/Tortade3cumple.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="hm-cell">
+            <video muted autoplay loop playsinline preload="metadata">
+              <source src="assets/videos/Tortazoe.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+        <div class="hero-veil-left"   aria-hidden="true"></div>
+        <div class="hero-veil-bottom" aria-hidden="true"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-tag ha">
+          <span class="htag-dot"></span>
+          Pastelería artesanal · Rosario, Santa Fe
+        </div>
+
+        <h1 class="hero-title ha">
+          Sabor que<br/>
+          <em>inspira.</em><br/>
+          Diseño que<br/>
+          <em>enamora.</em>
+        </h1>
+
+        <p class="hero-sub ha">
+          Tortas únicas hechas a tu medida en Rosario.<br/>
+          Personalizadas, irrepetibles, con amor real.
+        </p>
+
+        <div class="hero-btns ha">
+          <a href="#galeria" class="btn btn-hero-primary">
+            Ver creaciones <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="https://wa.me/5493413559372" target="_blank" rel="noopener noreferrer" class="btn btn-hero-wa">
+            <i class="fa-brands fa-whatsapp"></i> Hacer un Pedido
+          </a>
+        </div>
+
+        <div class="hero-stats ha">
+          <div class="hstat"><strong>+200</strong><span>tortas entregadas</span></div>
+          <div class="hstat-divider" aria-hidden="true"></div>
+          <div class="hstat"><strong>★ 5.0</strong><span>valoración</span></div>
+          <div class="hstat-divider" aria-hidden="true"></div>
+          <div class="hstat"><strong>100%</strong><span>artesanal</span></div>
+        </div>
+      </div>
+
+      <div class="hero-scroll" aria-hidden="true">
+        <div class="scroll-track"><div class="scroll-thumb"></div></div>
+        <span>scroll</span>
+      </div>
+    </section>
+
+    <!-- ══════ MARQUEE INFINITO ══════ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-inner">
+          <span>Artesanal</span><em>✦</em>
+          <span>Personalizada</span><em>✦</em>
+          <span>Con amor</span><em>✦</em>
+          <span>Rosario</span><em>✦</em>
+          <span>Única</span><em>✦</em>
+          <span>Memorable</span><em>✦</em>
+          <span>Santa Fe</span><em>✦</em>
+          <span>Deliciosa</span><em>✦</em>
+        </div>
+        <div class="marquee-inner" aria-hidden="true">
+          <span>Artesanal</span><em>✦</em>
+          <span>Personalizada</span><em>✦</em>
+          <span>Con amor</span><em>✦</em>
+          <span>Rosario</span><em>✦</em>
+          <span>Única</span><em>✦</em>
+          <span>Memorable</span><em>✦</em>
+          <span>Santa Fe</span><em>✦</em>
+          <span>Deliciosa</span><em>✦</em>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══════ SOBRE MÍ ══════ -->
+    <section id="sobre" class="section sobre" aria-labelledby="sobre-h">
+      <div class="container">
+        <div class="sobre-grid">
+
+          <div class="sobre-left rv rv-left">
+            <div class="sobre-img-wrap">
+              <picture>
+                <source srcset="assets/images/hero.webp" type="image/webp" />
+                <img src="assets/images/hero.webp"
+                     alt="Marisol, artesana de Tortas Sol en Rosario"
+                     loading="lazy" class="sobre-img"
+                     width="520" height="650" />
+              </picture>
+              <div class="sobre-img-deco" aria-hidden="true"></div>
+            </div>
+            <div class="sobre-chip">
+              <i class="fa-solid fa-star"></i>
+              <div>
+                <strong>+5 años</strong>
+                <span>de experiencia</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sobre-right rv rv-right">
+            <p class="eyebrow">Sobre mí</p>
+            <h2 id="sobre-h" class="section-title">Hola, soy<br/><em>Marisol</em></h2>
+            <p class="sobre-lead">Mi especialidad son las tortas artesanales en Rosario, hechas a medida para cada ocasión especial.</p>
+            <p class="sobre-body">Cada creación lleva horas de dedicación, ingredientes cuidadosamente seleccionados y, sobre todo, <strong>mucho amor</strong>. Lo que más valoro es ese momento en el que entrego un pedido y veo la cara de alegría del cliente. No hay mejor recompensa.</p>
+
+            <div class="sobre-nums">
+              <div class="snum"><strong>+200</strong><span>Tortas</span></div>
+              <div class="snum"><strong>100%</strong><span>Artesanal</span></div>
+              <div class="snum"><strong>❤️</strong><span>Con amor</span></div>
+            </div>
+
+            <a href="https://wa.me/5493413559372" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <i class="fa-brands fa-whatsapp"></i> Consultá tu torta
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════ SERVICIOS ══════ -->
+    <section id="servicios" class="section servicios" aria-labelledby="servicios-h">
+      <div class="container">
+        <div class="section-head rv">
+          <p class="eyebrow">Especialidades</p>
+          <h2 id="servicios-h" class="section-title">Lo que hacemos</h2>
+          <p class="section-sub">Cada encargo es único. Cada torta, pensada y diseñada para vos en Rosario.</p>
+        </div>
+
+        <div class="svc-grid">
+          <div class="svc-card rv">
+            <div class="svc-top">
+              <span class="svc-n">01</span>
+              <div class="svc-ico"><i class="fa-solid fa-cake-candles"></i></div>
+            </div>
+            <h3>Tortas de Cumpleaños</h3>
+            <p>Diseños únicos para festejar cada año con una torta que sorprenda y emocione a todos.</p>
+          </div>
+
+          <div class="svc-card rv">
+            <div class="svc-top">
+              <span class="svc-n">02</span>
+              <div class="svc-ico"><i class="fa-solid fa-heart"></i></div>
+            </div>
+            <h3>Tortas de Casamiento</h3>
+            <p>Elegancia y sabor para el día más especial de tu vida. Totalmente personalizadas.</p>
+          </div>
+
+          <div class="svc-card rv">
+            <div class="svc-top">
+              <span class="svc-n">03</span>
+              <div class="svc-ico"><i class="fa-solid fa-baby"></i></div>
+            </div>
+            <h3>Eventos Especiales</h3>
+            <p>Baby showers, bautismos, graduaciones. Cualquier celebración merece lo mejor.</p>
+          </div>
+
+          <div class="svc-card rv">
+            <div class="svc-top">
+              <span class="svc-n">04</span>
+              <div class="svc-ico"><i class="fa-solid fa-bowl-food"></i></div>
+            </div>
+            <h3>Mesa Dulce</h3>
+            <p>Cupcakes, alfajores, macarons y más. Tu mesa dulce completa, diseñada al detalle.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════ GALERÍA ══════ -->
+    <section id="galeria" class="section galeria" aria-labelledby="galeria-h">
+      <div class="container">
+        <div class="section-head rv">
+          <p class="eyebrow">Portfolio</p>
+          <h2 id="galeria-h" class="section-title">Mis creaciones</h2>
+          <p class="section-sub">Cada torta cuenta una historia. ¿Cuál será la tuya?</p>
+        </div>
+
+        <div class="gal-tabs rv" role="tablist" aria-label="Filtrar galería">
+          <button class="gtab active" data-tab="fotos" role="tab" aria-selected="true">
+            <i class="fa-solid fa-images"></i> Fotos
+          </button>
+          <button class="gtab" data-tab="videos" role="tab" aria-selected="false">
+            <i class="fa-solid fa-clapperboard"></i> Videos
+          </button>
+        </div>
+
+        <div class="gal-panel active" id="panel-fotos" role="tabpanel">
+          <div class="masonry" id="masonry" aria-label="Galería de tortas artesanales en Rosario"></div>
+        </div>
+
+        <div class="gal-panel" id="panel-videos" role="tabpanel" hidden>
+          <div class="vid-grid">
+            <div class="vid-item rv">
+              <video class="vid-bg" muted autoplay loop playsinline>
+                <source src="assets/videos/Tortazoeconmarisol.mp4" type="video/mp4"/>
+              </video>
+              <button class="vid-play" data-src="assets/videos/Tortazoeconmarisol.mp4" aria-label="Ver video en pantalla completa">
+                <i class="fa-solid fa-play"></i>
+              </button>
+              <p class="vid-label">Torta Zoé con Marisol</p>
+            </div>
+            <div class="vid-item rv">
+              <video class="vid-bg" muted autoplay loop playsinline>
+                <source src="assets/videos/Tortade3cumple.mp4" type="video/mp4"/>
+              </video>
+              <button class="vid-play" data-src="assets/videos/Tortade3cumple.mp4" aria-label="Ver video en pantalla completa">
+                <i class="fa-solid fa-play"></i>
+              </button>
+              <p class="vid-label">Torta 3er Cumpleaños</p>
+            </div>
+            <div class="vid-item rv">
+              <video class="vid-bg" muted autoplay loop playsinline>
+                <source src="assets/videos/Tortazoe.mp4" type="video/mp4"/>
+              </video>
+              <button class="vid-play" data-src="assets/videos/Tortazoe.mp4" aria-label="Ver video en pantalla completa">
+                <i class="fa-solid fa-play"></i>
+              </button>
+              <p class="vid-label">Torta Zoé</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════ TESTIMONIOS ══════ -->
+    <section id="testimonios" class="section testimonios" aria-labelledby="test-h">
+      <div class="container">
+        <div class="section-head rv">
+          <p class="eyebrow">Reseñas</p>
+          <h2 id="test-h" class="section-title">Clientes felices</h2>
+        </div>
+        <div class="test-grid">
+          <div class="test-card rv">
+            <div class="test-q">"</div>
+            <p>"La torta de cumpleaños de mi hija fue increíble. Marisol capturó exactamente lo que pedimos. ¡Todos quisieron el contacto!"</p>
+            <div class="test-footer">
+              <div class="test-av">L</div>
+              <div><strong>Laura M.</strong><span>Cumpleaños infantil — Rosario</span></div>
+              <div class="test-stars">★★★★★</div>
+            </div>
+          </div>
+          <div class="test-card rv">
+            <div class="test-q">"</div>
+            <p>"Pedimos la torta de casamiento con poca anticipación y quedó hermosa. Los invitados no paraban de preguntar dónde la compramos."</p>
+            <div class="test-footer">
+              <div class="test-av">C</div>
+              <div><strong>Carolina & Matías</strong><span>Casamiento — Rosario</span></div>
+              <div class="test-stars">★★★★★</div>
+            </div>
+          </div>
+          <div class="test-card rv">
+            <div class="test-q">"</div>
+            <p>"Nunca había visto una torta tan detallada y tan rica. Marisol pone el alma en cada creación. La recomiendo sin dudarlo."</p>
+            <div class="test-footer">
+              <div class="test-av">R</div>
+              <div><strong>Roberto S.</strong><span>Baby shower — Rosario</span></div>
+              <div class="test-stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════ CONTACTO ══════ -->
+    <section id="contacto" class="section contacto" aria-labelledby="contacto-h">
+      <div class="container">
+        <div class="contacto-grid">
+
+          <div class="contacto-left rv rv-left">
+            <p class="eyebrow">Contacto</p>
+            <h2 id="contacto-h" class="section-title">¿Tenés un<br/><em>motivo para<br/>celebrar?</em></h2>
+            <p>Escribinos y te respondemos a la brevedad. También podés contactarnos directamente por WhatsApp desde Rosario y toda la zona.</p>
+
+            <a href="https://wa.me/5493413559372" target="_blank" rel="noopener noreferrer" class="btn btn-wa-big">
+              <i class="fa-brands fa-whatsapp"></i> Escribir por WhatsApp
+            </a>
+
+            <div class="cinfo">
+              <div class="cinfo-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Rosario, Santa Fe, Argentina</span>
+              </div>
+              <div class="cinfo-item">
+                <i class="fa-brands fa-instagram"></i>
+                <a href="https://www.instagram.com/tortassol69" target="_blank" rel="noopener noreferrer">@tortassol69</a>
+              </div>
+              <div class="cinfo-item">
+                <i class="fa-brands fa-facebook"></i>
+                <a href="https://www.facebook.com/share/1Fr5a6Psse/" target="_blank" rel="noopener noreferrer">Tortas Sol en Facebook</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contacto-right rv rv-right">
+            <form class="cform" id="cform" novalidate aria-label="Formulario de contacto — Tortas Sol">
+              <h3>Envianos tu consulta</h3>
+              <div class="field">
+                <label for="fn">Nombre *</label>
+                <input id="fn" type="text" name="nombre" placeholder="María García"
+                       required autocomplete="name" maxlength="80" />
+              </div>
+              <div class="field">
+                <label for="fe">Email *</label>
+                <input id="fe" type="email" name="email" placeholder="maria@email.com"
+                       required autocomplete="email" maxlength="120" />
+              </div>
+              <div class="field">
+                <label for="fo">Ocasión</label>
+                <select id="fo" name="ocasion">
+                  <option value="">Seleccioná una ocasión</option>
+                  <option value="Cumpleaños">Cumpleaños</option>
+                  <option value="Casamiento">Casamiento</option>
+                  <option value="Baby Shower">Baby Shower</option>
+                  <option value="Bautismo">Bautismo</option>
+                  <option value="Graduación">Graduación</option>
+                  <option value="Mesa dulce">Mesa dulce</option>
+                  <option value="Otro">Otro</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="fm">Mensaje *</label>
+                <textarea id="fm" name="mensaje" rows="4"
+                          placeholder="Contame qué tenés en mente para tu torta..."
+                          required maxlength="800"></textarea>
+              </div>
+              <button type="submit" class="btn btn-submit">
+                Enviar consulta <i class="fa-solid fa-paper-plane"></i>
+              </button>
+              <p class="form-note">* También podés escribirnos directamente por WhatsApp.</p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══════ FOOTER ══════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="#inicio" class="footer-logo-link" aria-label="Volver al inicio">
+            <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" width="56" height="56" aria-hidden="true">
+              <ellipse cx="30" cy="47" rx="20" ry="4.5" fill="currentColor" opacity=".15"/>
+              <rect x="10" y="30" width="40" height="15" rx="4" fill="currentColor" opacity=".85"/>
+              <ellipse cx="30" cy="30" rx="20" ry="5" fill="currentColor"/>
+              <rect x="10" y="35" width="40" height="2.5" fill="white" opacity=".2"/>
+              <rect x="28.5" y="17" width="3" height="12" rx="1.5" fill="currentColor" opacity=".65"/>
+              <ellipse cx="30" cy="16" rx="2.5" ry="3.5" fill="#f5a623" opacity=".95"/>
+              <ellipse cx="30" cy="17.5" rx="1.2" ry="1.8" fill="white" opacity=".45"/>
+            </svg>
+            <span class="footer-brand-name">Tortas <em>Sol</em></span>
+          </a>
+          <p class="footer-tagline">Pastelería artesanal hecha<br/>con amor — Rosario, Santa Fe</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Navegación del pie de página">
+          <p class="footer-nav-title">Navegación</p>
+          <a href="#inicio">Inicio</a>
+          <a href="#sobre">Sobre mí</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#galeria">Galería</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+
+        <div class="footer-social-wrap">
+          <p class="footer-nav-title">Seguinos</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/tortassol69" target="_blank" rel="noopener noreferrer" class="fsoc" aria-label="Instagram de Tortas Sol">
+              <i class="fa-brands fa-instagram"></i>
+              <span>Instagram</span>
+            </a>
+            <a href="https://www.facebook.com/share/1Fr5a6Psse/" target="_blank" rel="noopener noreferrer" class="fsoc" aria-label="Facebook de Tortas Sol">
+              <i class="fa-brands fa-facebook-f"></i>
+              <span>Facebook</span>
+            </a>
+            <a href="https://wa.me/5493413559372" target="_blank" rel="noopener noreferrer" class="fsoc" aria-label="WhatsApp de Tortas Sol">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Tortas Sol, Rosario · Diseñado por
+          <a href="https://walterabenitez.github.io" target="_blank" rel="noopener noreferrer">Walter Benitez</a>
+        </p>
+        <a href="#inicio" class="back-top" aria-label="Volver al inicio de la página">
+          <i class="fa-solid fa-arrow-up"></i> Inicio
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════ LIGHTBOX MODIFICADO ══════ -->
+  <div class="lb" id="lb" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Visor de imagen o video">
+    <div class="lb-bg" id="lb-bg"></div>
+    <button class="lb-close" id="lb-close" aria-label="Cerrar visor">
+      <i class="fa-solid fa-times"></i>
+    </button>
+    <button class="lb-arr lb-arr-l" id="lb-prev" aria-label="Anterior">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <button class="lb-arr lb-arr-r" id="lb-next" aria-label="Siguiente">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+    <div class="lb-stage">
+      <img id="lb-img" src="" alt="" draggable="false" />
+      <video id="lb-vid" controls preload="none" style="display:none;" muted></video>
+      <p class="lb-count" id="lb-count"></p>
+    </div>
+  </div>
+
+  <!-- TOAST -->
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

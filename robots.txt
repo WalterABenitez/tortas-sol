@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Bloquear carpetas innecesarias para crawlers
+Disallow: /assets/icons/
+
+Sitemap: https://walterabenitez.github.io/tortas-sol/sitemap.xml
